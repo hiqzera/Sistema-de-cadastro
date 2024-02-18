@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #161616, #2c2c2c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 24px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.logout {
+    position: absolute;
+    margin-top: 6rem;
+    color: aqua;
+    text-decoration: none;
+}
+
+.cadastro {
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.btn-enter {
+    float: left;
+    margin-top: 1rem;
+    font-size: 24px;
+    padding: 1rem;
+    width: 10rem;
+    margin-left: 7rem;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #161616;
+    height: 75vh;
+    padding: 5vh 4vh;
+    border-radius: 15px;
+    box-shadow: 0 0 30px -10px #707070;
+}
+
+form {
+    margin-top: 15rem;
+    padding: 10px;
+}
+
+.login {
+    position: absolute;
+    margin-top: -20rem;
+    margin-left: 9rem;
+}
+
+label {
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.valid {
+    color: #fff;
+}
+
+.avatar {
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-cadas {
+    font-size: 18px;
+    margin: 5px 0px;
+}

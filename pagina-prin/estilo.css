@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #161616, #2c2c2c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 24px;
+    color: #ffffff;
+
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.container {
+    background-color: #161616;
+    padding: 5vh 4vh;
+    border-radius: 15px;
+    box-shadow: 0 0 30px -10px #707070;
+    min-height: 50vh;
+}
+
+.avatar {
+    background-image: url(/trabalho_mocela/atividade_3/uploads/);
+    border-radius: 10rem;
+    box-shadow: 0px 0px 5px #ffffff;
+    width: 10rem;
+    height: 10rem;
+}
+
+.sair {
+    display: flex;
+    margin-top: 1rem;
+    color: #f54842;
+    background-color: #2c2c2c;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 6rem;
+    transition: ease-in-out .5s;
+}
+
+.sair:hover {
+    background-color: #f54842;
+    color: #161616;
+}
+
+.cadastrar {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 12.50rem;
+    padding: 0.5rem 1rem;
+}
+
+.upload-label {
+    color: #ffffff;
+}
+
+.upload-btn {
+    background-color: #0074c2;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.pdf-list-title {
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.pdf-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pdf-list li {
+    margin-top: 0.5rem;
+}
+
+.excluir-link {
+    color: #f54842;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.no-pdf {
+    color: #ffffff;
+    margin-top: 1rem;
+}
